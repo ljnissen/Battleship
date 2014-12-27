@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+div#board {
+    position: relative;
+    width: 256px;
+    height: 215px;
+    margin: auto;
+    background: url("http://s8.postimg.org/nei40h11h/141127_br_de.jpg") no-repeat;
+}
+div#messageArea {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: rgb(83, 175, 19);
+}
+table {
+    position: absolute;
+    right: 30px;
+    top: 26px;
+    border-spacing: 0px;
+}
+td {
+    width: 23px;
+    height: 23px;
+}
+form {
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    padding: 15px;
+    background-color: rgb(83, 175, 19);
+}
+.hit {
+    background: url("http://s1.postimg.org/8o1tuup1n/141202_ship_ii.jpg") no-repeat center center;
+}
+.miss {
+    background: url("http://s7.postimg.org/7mzn0knsn/141202_miss_copy.jpg") no-repeat center center;
+}
+
+form input {
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+}
+
+form input {
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+}
